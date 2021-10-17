@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "posts")
-//class model
+//class model1
 public class Post extends AuditModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
